@@ -1,0 +1,12 @@
+<h1> <%= @facade.fruit.name %></h1>
+<ul>
+  <li><%= @facade.fruit.family %></li>
+  <li><%= @facade.fruit.order %></li>
+  <li><%= @facade.fruit.genus %></li>
+  <p> Nutrition Value: </p>
+  <li> Calories: <%= @facade.fruit.nutritions[:calories] %></li>
+  <li> Fat: <%= @facade.fruit.nutritions[:fat] %></li>
+  <li> Sugar: <%= @facade.fruit.nutritions[:sugar] %></li>
+  <li> Carbohydrates: <%= @facade.fruit.nutritions[:carbohydrates] %></li>
+  <li> Protein: <%= @facade.fruit.nutritions[:protein] %></li>
+</ul>
